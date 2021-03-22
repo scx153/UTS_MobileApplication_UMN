@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.ac.umn.uts_12003.Profil">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="52dp"
+        android:gravity="center"
+        android:text="NIM     : 00000012003\nNama  : Andre Rizaldi\n   Kelas   : BL                     "
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginTop="-243dp"
+        android:layout_marginBottom="21dp"
+        app:srcCompat="@drawable/user_male" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="Referensi Link:\n https://www.youtube.com/watch?v=8rnFZdQbYY8\nhttps://www.tutorialspoint.com/android/android_login_screen.htm\nhttps://esambooks.medium.com/how-to-create-a-simple-login-and-registration-app-in-android-studio-that-displays-username-using-674f21a0c208"
+        android:textSize="15sp" />
+
+</RelativeLayout>
